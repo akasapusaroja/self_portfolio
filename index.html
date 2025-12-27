@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c8f5fc6c8a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id ="header">
+    <div class="container">
+        <nav>
+            <img src="images/LOGO.png" alt=""missing img" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a>
+                <li><a href="#services">SERVICES</a>
+                <li><a href="#portfolio">PORTFOLIO</a>
+                <li><a href="#contacts">CONTACTS</a>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>FRONT-END DEVELOPER </p>
+          <h1> HI , I'm <span> Saroja</span> <br>From Rajahmundry </h1>
+        </div>
+    </div>
+    </div>
+<!-- ----------------about--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+        <img class="images" src="images/pic.jpeg" alt="About Image"></div>
+                <div class="about-col-2"><h1 class="sub-tittle"> About me </h1>
+        <p>
+          I’m Saroja, a passionate front-end developer and Data analyst from Rajahmundry. 
+          I love building creative and responsive websites that bring ideas to life.
+        </p>
+
+        <div class="tab-tittles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience </p>
+            <p class="tab-links"  onclick="opentab('education')">Education</p>
+        </div>
+
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+            <li><span>Web development </span><br>Designing and building responsive, user-friendly websites using HTML, CSS, JavaScript, and modern frameworks</li>
+            <li><span>Data Visualization</span><br>Creating clear and insightful dashboards using Power BI and Tableau to communicate data findings effectively</li>
+            <li><span>Prompt Engineering</span><br>Crafting effective and context-aware prompts to optimize AI model outputs for various applications</li>
+            </ul>
+           </div>
+
+            <div class="tab-contents" id="experience">
+            <ul>
+            <li><span>2023 – Diploma Training</span><br>Hands-on experience in Embedded System Design, including microcontroller programming, processor interfacing, and PCB design</li>
+            <li><span>2024 – Self Project</span><br>Developed an RFID-based Smart Access System integrating Arduino, sensors, and buzzer modules for secure entry control</li>
+            <li><span>2024 – Data Analytics Practice</span><br>Built interactive Power BI dashboards to visualize business and technical datasets, enhancing decision-making through data insights</li>
+            <li><span>2025 – Web Development</span><br>Designed and developed responsive websites using HTML, CSS, JavaScript, and modern front-end tools for enhanced user experience</li>
+            <li><span>2025 – Prompt Engineering</span><br>Created effective AI prompts to improve model responses, demonstrating skills in natural language understanding and creative query design</li>
+            </ul>
+           </div>
+
+            <div class="tab-contents" id="education">
+            <ul>
+            <li><span>2020 – Schooling</span><br>Completed SSC with 9.5 CGPA</li>
+            <li><span>2023 – Diploma in ECE</span><br>Completed with 85%, gaining strong fundamentals in electronics and communication engineering</li>
+            <li><span>2026 – B.Tech in ECE</span><br>Pursuing with a CGPA of 9.02, focusing on the intelligent software systems, IoT connectivity, and automation technologies with web enhancement
+            </li>
+            </ul>
+           </div>
+           </div>
+           </div>
+        </div>
+    </div>
+
+
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle">  My Services </h1>
+            <div class="services-list">
+
+            <div>
+              <i class="fa-brands fa-web-awesome"></i>
+                <h2>Web Design & Development</h2>
+                <p>Designing and developing modern, responsive, and user-friendly websites. Skilled in front-end tools and frameworks to build engaging web and mobile applications.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+              <div>
+                <i class="fa-solid fa-terminal"></i>
+                  <h2>Data Analysis</h2>
+                  <p>Collecting, cleaning, and interpreting complex datasets to uncover insights. Skilled in Excel, SQL, Python, and Power BI for data visualization and decision-making.</p>
+                 <a href="#">Learn More</a>
+            </div>
+
+              <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Prompt Engineering</h2>
+                <p>Crafting optimized and context-aware prompts to enhance AI responses. Experienced in leveraging natural language understanding for intelligent automation.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle>"> My workflow </h1>
+       <div class="work-list">
+
+        <div class="work">
+            <img src="https://images.pexels.com/photos/5082578/pexels-photo-5082578.jpeg" alt="work-3">
+            <div class="layer">
+                <h3>Traviling website </h3>
+               <p>We craft visually stunning and user-friendly websites that bring ideas to life. Our designs focus on simplicity, responsiveness, and seamless user experiences that leave a lasting impression..</p>
+               <a href="https://github.com/akasapusaroja/my_first_website.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+         <div class="work">
+            <img src="https://images.pexels.com/photos/7522609/pexels-photo-7522609.jpeg" alt="work-1">
+             <div class="layer">
+                <h3>RFID_ARDUINO_ACCES-CONTROL_PROJECT_</h3>
+               <p>Implemented an RFID authentication system with Arduino Uno and MFRC522 reader.
+                  Programmed real-time access control and visual/audible verification signals.</p>
+               <a href="https://github.com/akasapusaroja/RFID_ARDUINO_ACCES-CONTROL_PROJECT_"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+         <div class="work">
+            <img src="https://images.pexels.com/photos/8062366/pexels-photo-8062366.jpeg?_gl=1*3idfcv*_ga*MTQ5MTY4MDA5Ni4xNzQ4NzEyOTcz*_ga_8JE65Q40S6*czE3NjE2MzM5NzUkbzYkZzAkdDE3NjE2MzM5NzUkajYwJGwwJGgw" alt="work-2">
+             <div class="layer">
+                <h3>DATA AnalysT </h3>
+               <p>We build dynamic and scalable mobile and web applications tailored to user needs. From concept to deployment, our focus is on performance, clean design, and smooth functionality to deliver the best digital experience</p>
+               <a href="https://github.com/akasapusaroja1-cmyk/DATA_ANALYSIS.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+     
+         <div class="work">
+            <img src="https://images.pexels.com/photos/7873568/pexels-photo-7873568.jpeg" alt="work-2">
+             <div class="layer">
+                <h3>Tailor Portfolio Website</h3>
+               <p> A responsive and elegant tailor portfolio website showcasing tailoring services, fabric designs, and client engagement features. 
+                  Built with HTML, CSS, and JavaScript for a clean and interactive user experience.
+                </p>
+               <a href="https://github.com/akasapusaroja/tailour_portfolio.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+
+
+
+        </div>
+        <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+
+     <!-- contacts -->
+
+        <div id="contacts">
+            <div class="container">
+                <div class="row">
+                  <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p><i class="fa-solid fa-square-envelope"></i>akasapusaroja0@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 8328386808</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://github.com/akasapusaroja"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/akasapu-saroja-496380267/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <a href="images/my-cv.pdf" download class="btn btn2">Download cv</a>
+                  </div>
+                  <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"> </span>
+                  </div>
+                </div>
+            </div>
+            <div class="copy-right">
+                <p>Copyright @saroja. Made by<i class="fa-solid fa-heart"></i> passion </p>
+            </div>
+        </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbx3PYBuTaUeAZOuwRH9QCzXakjotEoYkSvKvcqP5UAE1TEUgt0yXelQrrojmgIq2ynv/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg");
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully";
+        setTimeout(function(){
+            msg.innerHTML = "";
+        },5000);
+        form.reset();
+      } )
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
